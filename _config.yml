@@ -62,11 +62,13 @@ links:
 projects:
   
   - name: homework-website
-    url: https://github.com/abduliitr/homework
+    url: https://abduliitr.github.io/homework/
   - name: iiche-website including Team page.
-    url: https://github.com/Abduliitr/iiche/ 
+    url: https://pulkonet.github.io/iiche/teampage.html 
   - name: fluany
-    url: https://github.com/fluany/fluany  
+    url: https://github.com/fluany/fluany 
+  - name: profile-page
+    url: https://abduliitr.github.io/profile/   
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
