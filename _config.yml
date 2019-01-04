@@ -31,20 +31,20 @@ compress_html:
 # Links to include in menu navigation
 links:
   section_1:
-    - title: home
-      url: /
+    - title: home--
+      url: /profile
       key_trigger: 1
     - title: my posts
-      url: /posts
+      url: /profile/posts
       key_trigger: 2
     - title: series
-      url: /series
+      url: /profile/series
       key_trigger: 3
     - title: tags
-      url: /tags
+      url: /profile/tags
       key_trigger: 4
     - title: about me
-      url: /about
+      url: /profile/about
       key_trigger: 5
   section_2:
     - title: github
@@ -63,10 +63,12 @@ projects:
   
   - name: homework-website
     url: https://abduliitr.github.io/homework/
-  - name: iiche-website including Team page.
-    url: https://pulkonet.github.io/iiche/teampage.html 
-  - name: fluany
-    url: https://github.com/fluany/fluany 
+  - name: Calfcode-company website
+    url: https://calfcode.com
+  - name: LoveActually Website
+    url: https://abduliitr.github.io/loveActually/
+  # - name: fluany
+  #   url: https://github.com/fluany/fluany 
   - name: profile-page
     url: https://abduliitr.github.io/profile/   
 

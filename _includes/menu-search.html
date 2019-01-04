@@ -36,7 +36,7 @@
     </ul>
   </div>
 
-  <nav id="navigation" role="navigation">
+  <!-- <nav id="navigation" role="navigation">
     {% for section in site.links %}
       <ul>
       {% for link in section[1] %}
@@ -51,13 +51,57 @@
                     <use xlink:href="#icon-right-arrow"></use>
                 </svg>
                 <a key-trigger={{ link.key_trigger }}
-                    href="{{ site.url }}{{ link.url }}"> {{ link.title }}</a>
+                    href="{{ link.url }}"> {{ link.title }}</a>
             </li>
         {% endif %}
       {% endfor %}
       </ul>
     {% endfor %}
-  </nav>
+  </nav> -->
+  <nav id="navigation" role="navigation">
+          <ul>
+                <li>
+                    <span class="counter-menu">1</span>
+                    <svg viewBox="0 0 50 50" class="icon-arrow-menu">
+                        <use xlink:href="#icon-right-arrow"></use>
+                    </svg>
+                    <a key-trigger=1
+                        href=""> home</a>
+                </li>
+                <li>
+                    <span class="counter-menu">2</span>
+                    <svg viewBox="0 0 50 50" class="icon-arrow-menu">
+                        <use xlink:href="#icon-right-arrow"></use>
+                    </svg>
+                    <a key-trigger=2
+                        href="posts"> my posts</a>
+                </li>
+                <li>
+                    <span class="counter-menu">3</span>
+                    <svg viewBox="0 0 50 50" class="icon-arrow-menu">
+                        <use xlink:href="#icon-right-arrow"></use>
+                    </svg>
+                    <a key-trigger=3
+                        href="series"> series</a>                    
+                </li>
+                <li>
+                    <span class="counter-menu">4</span>
+                    <svg viewBox="0 0 50 50" class="icon-arrow-menu">
+                        <use xlink:href="#icon-right-arrow"></use>
+                    </svg>
+                    <a key-trigger=4
+                        href="tags"> tags</a>
+                </li>
+                <li>
+                    <span class="counter-menu">5</span>
+                    <svg viewBox="0 0 50 50" class="icon-arrow-menu">
+                        <use xlink:href="#icon-right-arrow"></use>
+                    </svg>
+                    <a key-trigger=5
+                        href="about"> about me</a>
+                </li>    
+          </ul>
+      </nav>
 </aside>
 
 <a id="search" class="dosearch">
