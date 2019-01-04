@@ -1,8 +1,8 @@
 # Site settings
 title: Abdulahad - Profile
 description: "A blog about Abdulahad ..."
-baseurl: "" # for test: remove string '/space-jekyll-template' to ''
-url: "http://Abduliitr.github.io/profile" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+baseurl: "/profile" # for test: remove string '/space-jekyll-template' to ''
+url: "http://Abduliitr.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 
 # User settings
 username: ABDULAHAD
