@@ -69,8 +69,8 @@ projects:
     url: https://abduliitr.github.io/loveActually/
   # - name: fluany
   #   url: https://github.com/fluany/fluany 
-  - name: profile-page
-    url: https://abduliitr.github.io/profile/   
+#  - name: profile-page
+#    url: https://abduliitr.github.io/profile/   
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
